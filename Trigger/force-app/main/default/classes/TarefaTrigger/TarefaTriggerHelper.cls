@@ -14,10 +14,9 @@ public without sharing class TarefaTriggerHelper {
                 if(tarefa.WhatId == iTarefa.WhatId) {
                     // Se já existe uma tarefa em aberto nesse caso, adiciona erro
                     tarefa.addError('Já existe uma tarefa em aberto nesse caso. Encerre-a antes de abrir uma nova.');
-                    System.debug('Tarefa já existe para o caso: ' + tarefa.WhatId);               
+                    System.debug('Tarefa já existe para o caso: ' + tarefa.WhatId);
                 }
             }
         }
     }
-    
 }
